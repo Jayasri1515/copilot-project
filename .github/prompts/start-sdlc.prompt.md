@@ -1,7 +1,7 @@
 ---
 name: start-sdlc
 description: Start or resume the gated SDLC through its single Orchestrator entry point.
-agent: sdlc-orchestrator
+agent: orchestration-agent
 argument-hint: Project idea, clarification answer, artifact approval, or release-action approval.
 ---
 

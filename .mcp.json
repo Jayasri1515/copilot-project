@@ -3,6 +3,10 @@
 		"github-copilot-mcp-server": {
 			"url": "https://api.githubcopilot/mcp/",
 			"type": "http"
+		},
+		"my-mcp-server-08471dde": {
+			"url": "https://mcp.atlassian.com/v2/mcp",
+			"type": "http"
 		}
 	}
 }

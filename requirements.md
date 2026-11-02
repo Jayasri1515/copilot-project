@@ -6,7 +6,7 @@
 |---|---|
 | SDLC stage | Requirements revision following Stage 3 design review |
 | Authoritative artifact | Repository-root `requirements.md` |
-| Original source | [`.github/input/userstory.md`](./.github/input/userstory.md), US-001 through US-007 |
+| Story source | Jira issues [WF-1](https://jayasriap.atlassian.net/browse/WF-1) through [WF-7](https://jayasriap.atlassian.net/browse/WF-7); complete story descriptions and acceptance criteria retrieved 2026-10-31. [`.github/input/userstory.md`](./.github/input/userstory.md) is the corresponding local snapshot. |
 | Correction sources | User-approved selections provided on 2026-10-27 in response to `design-review.md`; user-approved product and quality decisions for implementation-plan blockers B-003 through B-016, supplied 2026-10-27 |
 | Supersedes | Requirements baseline approved on 2026-10-27 |
 | Revised requirements status | **Approved by the user on 2026-10-27** |
@@ -465,19 +465,24 @@ an external URL.
 
 ### 9.1 Source stories to requirements
 
-| Source | Covered by |
-|---|---|
-| US-001 | FR-001; AC-001, AC-002 |
-| US-002 | FR-002; AC-003, AC-004 |
-| US-003 | FR-003; AC-005, AC-006, AC-018, AC-029 |
-| US-004 | FR-004; AC-007, AC-008, AC-019, AC-020, AC-027 |
-| US-005 | FR-005; AC-009 through AC-012, AC-016, AC-031, AC-036, AC-037 |
-| US-006 | FR-006; AC-013 through AC-015, AC-021 through AC-023, AC-032 through AC-035 |
-| US-007 | FR-007; NFR-001 through NFR-016; AC-024 through AC-030 and AC-038 through AC-044 |
+The Jira story descriptions and acceptance criteria retrieved on 2026-10-31
+match the corresponding local snapshot. The approved requirements below
+preserve the story intent and explicitly trace the changes approved during
+requirements review.
 
-US-002 originally described automatic location detection on application open.
-The user-approved correction intentionally supersedes that trigger with the
-explicit **Use my location** action in FR-002.
+| Jira source | Local story ID | Covered by |
+|---|---|---|
+| [WF-1](https://jayasriap.atlassian.net/browse/WF-1) | US-001 | FR-001; AC-001, AC-002 |
+| [WF-2](https://jayasriap.atlassian.net/browse/WF-2) | US-002 | FR-002; AC-003, AC-004 |
+| [WF-3](https://jayasriap.atlassian.net/browse/WF-3) | US-003 | FR-003; AC-005, AC-006, AC-018, AC-029 |
+| [WF-4](https://jayasriap.atlassian.net/browse/WF-4) | US-004 | FR-004; AC-007, AC-008, AC-019, AC-020, AC-027 |
+| [WF-5](https://jayasriap.atlassian.net/browse/WF-5) | US-005 | FR-005; AC-009 through AC-012, AC-016, AC-031, AC-036, AC-037 |
+| [WF-6](https://jayasriap.atlassian.net/browse/WF-6) | US-006 | FR-006; AC-013 through AC-015, AC-021 through AC-023, AC-032 through AC-035 |
+| [WF-7](https://jayasriap.atlassian.net/browse/WF-7) | US-007 | FR-007; NFR-001 through NFR-016; AC-024 through AC-030 and AC-038 through AC-044 |
+
+WF-2 describes automatic location detection on application open. The
+user-approved correction intentionally supersedes that trigger with the
+explicit **Use my location** action in FR-002; location access is not automatic.
 
 ### 9.2 Design-review findings to revised requirements
 
